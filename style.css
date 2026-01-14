@@ -1,0 +1,189 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#nave{ 
+    margin: auto;
+    width: 1000px;
+    display: flex;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+ul li{
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    background-color: rgba(150, 61, 177, 0.781);
+    color: bisque;
+    padding: 15px 20px;
+    display: block;
+}
+ul li a:hover{
+    background-color: rgb(66, 43, 70);
+}
+ul ul{
+    display: none;
+    position: absolute;
+    flex-direction: column;
+    min-width: 200px;
+}
+ul>li{
+    float: left;
+    position: relative;
+}
+ul li ul li{
+    float: none;
+}
+ul li ul{
+    display: none;/*los subtitulos se ocultan*/
+    position: absolute;
+    min-width: 140px;
+}
+ul li:hover>ul{
+    display: block;/*los submenus aparecen al hacer click con el mouse sobre los menus principales*/
+}
+ul li ul li{
+    position: relative;
+}
+ul li ul li ul{
+    right: -181px;
+    top:0px;
+}
+img{
+    align-content: center;
+    padding: 70px;
+}
+iframe{
+    display: flex;
+    height: 85%;
+    width: 103.1%;
+}
+.i{
+    height: 100px;
+    width: 90px;
+    margin-top: -100px;
+}
+.e{
+    width: 100%;
+    background-color: rgba(87, 1, 95, 0.37);
+    height: 38px;
+    top: 0;
+    left: 0;
+    padding: 40px;
+    display: flex;
+}
+#frame-contenido {
+    width: 100%;
+    height: 70.1vh; /* 80% de la altura de la pantalla */
+    border: none;
+}
+header { background-color: #ffc4d4; padding: 2px; text-align: center; border-bottom: 2px solid #ffe4e1; }
+h1{
+    color: #fc5ec7; margin: 0; font-size: 100px;
+}
+h2{
+    color: hsl(315, 88%, 37%);
+}
+footer {
+    padding: 1px 0 !important;   /* Reduce el espacio interno al mínimo */
+    height: 1px 0 ;     /* Deja que el alto sea solo el del texto */
+    border-top: 2px solid #ffc0cbd3; /* Tu línea rosa decorativa */
+    border-bottom: none;         /* "none" elimina cualquier borde inferior extra */
+    background-color: rgba(221, 172, 206, 0.788);     /* Asegura el fondo limpio */
+}
+
+footer p {
+    padding: 60px;
+    margin: 1 !important;        /* ELIMINA el espacio automático que hace alto al footer */
+    font-size: 15px;             /* Texto pequeño para ahorrar espacio */
+    text-align: center;          /* Centra el texto */
+    color: #555;                 /* Color gris profesional */
+}
+footer p{
+    height: 1%;
+}
+.fd{
+    background:url(fondo.png); 
+    background-size: cover;
+}
+.m{
+    display: flex;
+}
+.b{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.d{
+    justify-content: center;
+    text-align: center;
+    padding: 30px;
+    color: rgba(212, 167, 167, 0.342);
+    border: 3px solid #c975a9;
+    backdrop-filter: blur(15px);
+}
+.p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 60px;
+    text-align: center;
+}
+.o{
+    padding-left: 10vh;
+    padding-right: 10vh;
+    display: flex;
+    background:url(fondo2.png); /*fondo de la imagen*/
+    background-size: cover;/*imagen se ajusta a la pantalla*/
+    align-items: center;
+    justify-content: center;
+}
+.f{
+    align-items: center;
+    margin: 59px; 
+    padding-left: 60px;
+    padding-right: 60px;
+    background-color: rgba(95, 95, 95, 0.397);
+}
+
+.h{
+    background-color: rgba(0, 0, 0, 0.315);
+    align-items: center;
+    padding: 50px;
+}
+.S{
+    align-items: center;
+    padding-left: 125px;
+    background-color: rgb(255, 255, 255);
+}
+.s{
+    align-items: center;
+    padding-left: 70px;
+    background-color: rgb(255, 255, 255);
+}
+.l{
+    font-size: 25px;
+}
+.j{
+    background-color: rgba(255, 255, 255, 0.267);
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.t{
+    background-color: rgba(255, 255, 255, 0.267);
+    margin: 10px;
+    padding-left: 40px;
+    padding-right: 70px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.m{
+    background-color: rgba(255, 255, 255, 0.247);
+    padding: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.q{
+    color: rgba(55, 7, 104, 0.733);
+    font-family: initial;
+    background-color: rgba(248, 165, 234, 0.342);
+    padding: 20px;
+    font-size: 55px;
+}
